@@ -27,9 +27,8 @@ from solution.preprocessing import preprocess
 class BraitenbergAgentConfig:
     #gain: float = 0.1
     #const: float = 0.4
-    gain: float = 0.4
-    const: float = 0.6
-
+    gain: float = 0.6
+    const: float = 0.4
 
 class BraitenbergAgent:
     config = BraitenbergAgentConfig()
